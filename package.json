@@ -4,6 +4,7 @@
   "description": "categories assignment",
   "main": "server.js",
   "scripts": {
+    "start": "node .",
     "seed": "node ./database/db.seeder.js",
     "test": "jest tests/unit",
     "test:coverage": "jest tests/unit --coverage",
