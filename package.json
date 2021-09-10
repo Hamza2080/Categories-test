@@ -1,0 +1,33 @@
+{
+  "name": "categories-test",
+  "version": "1.0.0",
+  "description": "categories assignment",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node ./database/db.seeder.js",
+    "test": "jest tests/unit",
+    "test:coverage": "jest tests/unit --coverage",
+    "test:integration": "jest tests/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamza2080/Categories-test.git"
+  },
+  "author": "Hamza Javed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamza2080/Categories-test/issues"
+  },
+  "homepage": "https://github.com/Hamza2080/Categories-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "axios": "^0.21.4",
+    "jest": "^27.1.1"
+  }
+}

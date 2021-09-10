@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "1",
+    "name": "category name1",
+    "subCategory": {
+      "_id": "2",
+      "name": "category name2",
+      "subCategory": {
+        "_id": "3",
+        "name": "category name3",
+        "subCategory": {
+          "_id": "4",
+          "name": "category name4",
+          "subCategory": {
+            "_id": "5",
+            "name": "category name5",
+            "subCategory": {
+              "_id": "6",
+              "name": "category name6",
+              "subCategory": {
+                "_id": "7",
+                "name": "category name7",
+                "subCategory": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "8",
+    "name": "category name8",
+    "subCategory": {
+      "_id": "9",
+      "name": "category name9",
+      "subCategory": null
+    }
+  }
+]

@@ -1,0 +1,17 @@
+
+version: '3.3'
+services:
+  nodejs-api:
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "3003:3003"
+    container_name: nodejs-api
+    links:
+      - mongo-db
+    depends_on:
+      - mongo-db
+  mongo-db:
+    image: mongo
+    container_name: mongo-db
